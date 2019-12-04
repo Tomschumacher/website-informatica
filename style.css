@@ -1,0 +1,102 @@
+/* POSITIES, ACHTERGROND ETC */
+body {
+    background-color: #5F9EA0;
+    font-family: sans-serif;
+}
+
+#hoofdKader {
+    width: 800px;
+    margin: 0 auto;
+    overflow: auto;
+    border: solid 1px black;
+}
+
+h1 {
+    color: white;
+    font-size: 5.0em;
+    text-align: center;
+        
+}
+
+h2{
+   color: white;
+   margin: 15px 245px;
+}
+
+/* NAVIGATIEBALK */
+
+ul {
+    list-style: square;
+    list-style-type: none; 
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    text-align: center;
+    display: table;
+}
+
+li{
+    color: red;
+    float: left;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+li a {
+    display: block;
+    color: cadetblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+    text-align: center;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* KLEUREN, LETTERTYPEN ETC */
+
+p{
+    color: white;
+    text-align: center;
+}
+
+header {
+    /*
+    width: 1800px;
+    margin: auto;
+    */
+}
+
+article {
+
+}
+
+img.rechtsZwevend {
+    float: right;
+    margin: 15px;
+}
+
+
+.title {
+    /*
+    margin: 0 400px;
+    float: left;
+    */
+}
